@@ -23,7 +23,7 @@ module.exports = defineConfig({
       return {
         server: {
           host: "0.0.0.0",
-          allowedHosts: ["localhost", ".localhost", "127.0.0.1"],
+          allowedHosts: ["localhost", ".localhost", "127.0.0.1", "*.traefik.me"],
         },
         hmr: {
           // HMR websocket port inside container
